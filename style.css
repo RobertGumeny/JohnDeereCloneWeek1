@@ -12,10 +12,13 @@
 .find-dealer:hover{
   color: #20730d;
 }
-.fa-search{
+.fa-search-color{
   color: #20730d;
 }
 .bg-banner{
   background-image: url('https://www.deere.com/assets/images/common/home-page/March-2020-Hero-1366x347.jpg');
   height: 40vh;
+}
+.bg-footer-color{
+  background-color: lightgray;
 }

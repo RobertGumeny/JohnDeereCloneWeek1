@@ -29,7 +29,7 @@
             <a href="#" class="find-dealer">Find a Dealer</a>
           </div>
             <a href="#" class="text-dark font-weight-bold">MyJohnDeere</a>
-            <i class="fas fa-search fa-2x"></i>
+            <i class="fas fa-search fa-search-color fa-2x"></i>
         </div>
       </div> <!-- Sticky NavBar-->
       <div id="navbar-cards" class="row mt-3">
@@ -160,17 +160,68 @@
         </div>
       </div>
       <div id="Search-Parts" class="row mt-5 mb-5">
-        <div class="col-12">Search Parts</div>
+        <div class="col-12 font-weight-bold">
+          <h2>Search Parts by</h2>
+          <form class="form-inline">
+
+            <div class="dropdown">
+              <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Model
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item active" href="#">Model</a>
+                <a class="dropdown-item" href="#">Part Number</a>
+              </div>
+            </div><!-- Dropdown ends-->
+            <input class="form-control form-control-lg w-50" type="text" placeholder="Search by PIN, Model, Equipment, or Catalog">
+            <button type="button" class="btn btn-success"><i class="fas fa-search fa-2x"></i></button>
+          </form>
+        </div>
       </div>
     </main><!-- end Main Content area-->
-    <footer class="container-fluid">
+    <footer class="container-fluid bg-footer-color text-center">
       <div id="Footer" class="row">
-        <div class="col-3">Products and Support</div>
-        <div class="col-3">Company Information</div>
-        <div class="col-3">Publciations</div>
-        <div class="col-3">Connect with John Deere</div>
+        <div class="col-3 d-flex flex-column">
+          <h6>Products and Support</h6>
+          <a href="#" class="text-dark">Equipment</a>
+          <a href="#" class="text-dark">Find a Dealer</a>
+          <a href="#" class="text-dark">Buy Online</a>
+          <a href="#" class="text-dark">Build Your Own</a>
+        </div>
+        <div class="col-3 d-flex flex-column">
+          <h6>Company Information</h6>
+          <a href="#" class="text-dark">About Us</a>
+          <a href="#" class="text-dark">Technology & Innovation</a>
+          <a href="#" class="text-dark">Sustainability</a>
+          <a href="#" class="text-dark">Careers</a>
+          <a href="#" class="text-dark">Governance</a>
+          <a href="#" class="text-dark">Investor Relations</a>
+          <a href="#" class="text-dark">News & Announcements</a>
+          <a href="#" class="text-dark">Contact Us</a>
+
+        </div>
+        <div class="col-3 d-flex flex-column">
+          <h6>Publications</h6>
+          <a href="#" class="text-dark">John Deere Journal</a>
+          <a href="#" class="text-dark">The Furrow</a>
+          <a href="#" class="text-dark">The Dirt</a>
+          <a href="#" class="text-dark">The Landing</a>
+          <a href="#" class="text-dark">Industrial PowerSource</a>
+          <a href="#" class="text-dark">Marine PowerSource</a>
+        </div>
+        <div class="col-3 d-flex flex-column">
+          <h6>Connect with John Deere</h6>
+          <a href="#" class="text-dark">Visit Us</a>
+          <a href="#" class="text-dark">Factory Tours</a>
+          <a href="#" class="text-dark">John Deere Historic Site</a>
+          <a href="#" class="text-dark">John Deere Pavilion</a>
+          <a href="#" class="text-dark">John Deere Tractor & Engine Museum</a>
+          <a href="#" class="text-dark">World Headquarters</a>
+          <a href="#" class="text-dark">For the Kids</a>
+        </div>
       </div>
       <div id="Footer-2" class="row">
+        <hr>
         United States, etc.
       </div>
     </footer>
