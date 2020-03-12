@@ -1,0 +1,21 @@
+.find-dealer{
+  color: #20730d;
+  font-weight: bold;
+}
+.jd-link{
+  color: #20730d;
+  font-weight: bold;
+}
+.jd-link:hover{
+  color: #20730d;
+}
+.find-dealer:hover{
+  color: #20730d;
+}
+.fa-search{
+  color: #20730d;
+}
+.bg-banner{
+  background-image: url('https://www.deere.com/assets/images/common/home-page/March-2020-Hero-1366x347.jpg');
+  height: 40vh;
+}
